@@ -2,8 +2,6 @@ import requests
 import pyodbc
 
 # LinkedIn API credentials
-# CLIENT_ID = '86gawjaqysdvxi'
-# CLIENT_SECRET = 'JfWNGh1yETThGlVy'
 APP_VERSION = '202411'
 ACCESS_TOKEN = (
     'AQUhGyfzqf6s5zDC4ganhgSd2rH5vsBER_-mEm95QGwCMNxX6fUsAn_JFHpH8Rf6U5aPR8HkcA_g-MSwFCqSIMRC9bcX5dkHRBvCp1fwmFDA2vtZ7g-NxstC8b6PXMHBdHJLqiMiQj0C6f1bPkO0zGBWMdU3LOSi1c2hA5X-upa4MK-y1LyWVpe9XbNMBUGwvS7gB7U4Ivbeq5-lv7tfpmfckYh2FjImtZIG4B8JHKkaqAYrxn9xK1_A2L-Rds8eeJQB0Z7tZb-yFolupHuzTeu_nF6vqZ3OWD4MpNhyDwsNaz2JB9fTXgcTIUPxFLVxa__jOxaOr8whb5f0UdwJ_S_2pCLMBw')
