@@ -2,9 +2,8 @@ import requests
 import pyodbc
 
 # LinkedIn API credentials
-
 ACCESS_TOKEN = ('AQWehW8PIlirSPmUTQ58qzQg-0bjbyGGvy0r5kSS3_PaCFba9Qas9eB89JfUl_wPrtiJ4cSoRcgXeY1LiZQ9kfVphw5PN4WzBDY3o4vvs0vOF2k5LcbYtjtkR53u5nVvmFjt_02Cte5c_cpcxUmK2bxkrfXcyBsxw01TMOA8oA_-Pd7IVLQjFXNwmcr5LmlIgMVS_XjBht1Q35zLYL-_kOOHCGQ3z1_y2BzfOi9vYMrEgx0yHTal2irMtYMRE00OGippdopPAFWuGfWuwfHY0ayYMHmb5PKHJG5JKM6gv1MZPg-QLNnEnHhkYw8A8IQOu1eaa7y0OqOYr9WzCcw82t4yjDJHqg')
-App_version = '202411'
+APP_VERSION = '202411'
 ACCESS_TOKEN = (
     'AQUhGyfzqf6s5zDC4ganhgSd2rH5vsBER_-mEm95QGwCMNxX6fUsAn_JFHpH8Rf6U5aPR8HkcA_g-MSwFCqSIMRC9bcX5dkHRBvCp1fwmFDA2vtZ7g-NxstC8b6PXMHBdHJLqiMiQj0C6f1bPkO0zGBWMdU3LOSi1c2hA5X-upa4MK-y1LyWVpe9XbNMBUGwvS7gB7U4Ivbeq5-lv7tfpmfckYh2FjImtZIG4B8JHKkaqAYrxn9xK1_A2L-Rds8eeJQB0Z7tZb-yFolupHuzTeu_nF6vqZ3OWD4MpNhyDwsNaz2JB9fTXgcTIUPxFLVxa__jOxaOr8whb5f0UdwJ_S_2pCLMBw')
 
@@ -13,7 +12,7 @@ analytics_url = f'https://api.linkedin.com/v2/countries'
 
 headers = {'Authorization': f'Bearer {ACCESS_TOKEN}',
            'Content-Type': 'application/json',
-            'LinkedIn-Version': f'{App_version}'
+            'LinkedIn-Version': f'{APP_VERSION}'
             # 'X-Restli-Protocol-Version': '2.0.0'
            }
 # Retrieve profile information from LinkedIn API
